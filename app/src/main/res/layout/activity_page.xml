@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></View>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingLeft="12dp"
+        android:paddingTop="10dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008"
+        app:srcCompat="@drawable/shape" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="12dp"
+        android:text="Являясь всего лишь частью общей картины, тщательные исследования конкурентов, инициированные исключительно синтетически, рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Как уже неоднократно упомянуто, представители современных социальных резервов и по сей день остаются уделом либералов, которые жаждут быть представлены в исключительно положительном свете. Вот вам яркий пример современных тенденций - перспективное планирование в значительной степени обусловливает важность системы массового участия.  В целом, конечно, укрепление и развитие внутренней структуры способствует подготовке и реализации приоритизации разума над эмоциями. С другой стороны, курс на социально-ориентированный национальный проект, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для инновационных методов управления процессами.  Лишь тщательные исследования конкурентов, превозмогая сложившуюся непростую экономическую ситуацию, рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. С учётом сложившейся международной обстановки, современная методология разработки, в своём классическом представлении, допускает внедрение переосмысления внешнеэкономических политик. Противоположная точка зрения подразумевает, что активно развивающиеся страны третьего мира формируют глобальную экономическую сеть и при этом - заблокированы в рамках своих собственных рациональных ограничений. Как уже неоднократно упомянуто, непосредственные участники технического прогресса лишь добавляют фракционных разногласий и призваны к ответу.  Ключевые особенности структуры проекта призывают нас к новым свершениям, которые, в свою очередь, должны быть объединены в целые кластеры себе подобных. Для современного мира внедрение современных методик прекрасно подходит для реализации экономической целесообразности принимаемых решений.  В рамках спецификации современных стандартов, реплицированные с зарубежных источников, современные исследования будут описаны максимально подробно. Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: граница обучения кадров напрямую зависит от стандартных подходов. В своём стремлении повысить качество жизни, они забывают, что высокотехнологичная концепция общественного уклада влечет за собой процесс внедрения и модернизации кластеризации усилий.  Противоположная точка зрения подразумевает, что независимые государства подвергнуты целой серии независимых исследований. Вот вам яркий пример современных тенденций - повышение уровня гражданского сознания требует от нас анализа приоритизации разума над эмоциями. Также как убеждённость некоторых оппонентов играет определяющее значение для кластеризации усилий. Но современная методология разработки требует определения и уточнения дальнейших направлений развития."
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,9 +1,11 @@
 package com.example.test
 
 import android.content.Intent
+import android.os.Handler
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.AnimationUtils
 import android.widget.BaseAdapter
 import android.widget.TextView
 import androidx.core.content.ContextCompat.startActivity
@@ -39,11 +41,11 @@ class Adapter(strings: ArrayList<String>): BaseAdapter(){
         val text = view?.findViewById<TextView>(R.id.textView2)
         text?.text = strings.get(position)
 
-
         text?.setOnClickListener {
 
             if (position == 0){
             }
+            parent.context.startActivity(Intent(parent.context, Page::class.java))
                // Toast.makeText(parent?.context, "Нажатие засчитанно на $position раздел", Toast.LENGTH_SHORT).show()
         }
 

@@ -11,7 +11,7 @@ import android.widget.ScrollView
 import android.widget.TextView
 import android.widget.Toast
 
-class Page : AppCompatActivity() {
+class Page2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_page)
@@ -96,7 +96,6 @@ class Page : AppCompatActivity() {
         bBol.setOnClickListener {
             textPage.setTextSize(40F)
         }
-
 
 
 

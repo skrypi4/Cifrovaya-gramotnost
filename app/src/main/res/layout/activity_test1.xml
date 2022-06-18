@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".allTest.Test1">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"></View>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Вопрос номер 1. При длительной работе за компьютером, можно ли ложиться на стул?"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Да"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Нет"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Если болит спина, то да"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Только при наличии крутого артопидического кресла"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Вопрос номер 2. Что нужно делать каждые пять минут при работе с ПК?"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                app:singleLine="false"
+                app:singleSelection="true">
+
+                <RadioButton
+                    android:id="@+id/checkBox21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Разминаться"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/checkBox22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Отводить взгляд"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/checkBox23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Пить чай"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/checkBox24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Отдыхать от работы"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Вопрос номер 3. Почему нельзя работать на ПК в мокрой одежде?"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/chipGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                app:singleLine="false"
+                app:singleSelection="true">
+
+                <RadioButton
+                    android:id="@+id/checkBox31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Кресло может намокнуть"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/checkBox32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Некомфортно работать"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/checkBox33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Компьютер может сломаться"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/checkBox34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Будет холодно"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Вопрос номер 4. При большом количестве пыли на экране, можно ли его протереть рукой?"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                app:singleLine="false"
+                app:singleSelection="true">
+
+                <RadioButton
+                    android:id="@+id/checkBox41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Да, при условии того что изображение на монитре еле видно"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/checkBox42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Нельзя, нужна специальная салфетка или раствор"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/checkBox43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Можно протереть тряпочкой и водой"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/checkBox44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Можно, если слишком сильно не надавливать"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Вопрос номер 5. Можно ли работать с музыкой?"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                app:singleLine="false"
+                app:singleSelection="true">
+
+                <RadioButton
+                    android:id="@+id/checkBox51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Только с классической музыкой"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/checkBox52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Да, при условии что она будет негромкой"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/checkBox53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Нет, ни должно быть никакого шума"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/checkBox54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Нет, так как будешь мешать другим"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/buttonTestRez1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Завершить тестирование" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

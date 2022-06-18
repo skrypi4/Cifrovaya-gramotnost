@@ -4,14 +4,31 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/drawable/gradient.xml" value="0.193" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/drawable/gradient2.xml" value="0.2805" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/drawable/gradient3.xml" value="0.264" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/drawable/gradientreverse.xml" value="0.2735" />
         <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/drawable/shape.xml" value="0.3885" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/drawable/shapeObv.xml" value="0.4" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/drawable/shape_full.xml" value="0.354" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/drawable/shape_obv.xml" value="0.224" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.26305220883534136" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout-w936dp/activity_login.xml" value="0.30703125" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout/activity_listtest.xml" value="0.4" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout/activity_login2.xml" value="0.409375" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout/activity_page.xml" value="0.4" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout/activity_page2.xml" value="0.19908814589665655" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout/activity_profile.xml" value="0.6" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout/activity_reg.xml" value="0.409375" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout/activity_tema1.xml" value="0.409375" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout/activity_test1.xml" value="0.4" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout/bottomnavigation.xml" value="0.72" />
         <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout/fdsf.xml" value="0.23890577507598784" />
-        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout/list_item.xml" value="0.19908814589665655" />
+        <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout/list_item.xml" value="0.6" />
         <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.289" />
         <entry key="..\:/Users/Skrypi4/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.289" />
-        <entry key="..\:/Users/admin/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout/activity_page.xml" value="0.2" />
-        <entry key="..\:/Users/admin/AndroidStudioProjects/Cifrovaya-gramotnost/app/src/main/res/layout/list_item.xml" value="0.128" />
         <entry key="..\:/Users/user/AndroidStudioProjects/test/app/src/main/res/drawable/gradient.xml" value="0.3565" />
         <entry key="..\:/Users/user/AndroidStudioProjects/test/app/src/main/res/drawable/shape.xml" value="0.3565" />
         <entry key="..\:/Users/user/AndroidStudioProjects/test/app/src/main/res/drawable/splash.xml" value="0.3565" />

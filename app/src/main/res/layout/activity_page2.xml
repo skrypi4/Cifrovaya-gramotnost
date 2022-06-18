@@ -66,6 +66,7 @@
             android:paddingTop="15dp"
             android:paddingEnd="10dp"
             android:paddingBottom="15dp"
+            app:layout_constraintBottom_toTopOf="@id/bottomGap"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/topGap">
@@ -100,8 +101,7 @@
             android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/topGap"
-            tools:visibility="invisible" />
+            app:layout_constraintTop_toBottomOf="@+id/topGap" />
 
         <TextView
             android:id="@+id/textSettings"
@@ -117,8 +117,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/settings"
             app:layout_constraintEnd_toEndOf="@+id/settings"
             app:layout_constraintStart_toStartOf="@+id/settings"
-            app:layout_constraintTop_toTopOf="@+id/settings"
-            tools:visibility="invisible" />
+            app:layout_constraintTop_toTopOf="@+id/settings" />
 
         <Button
             android:id="@+id/button_mal"
@@ -129,8 +128,7 @@
             android:text="Маленький"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textSettings"
-            tools:visibility="invisible" />
+            app:layout_constraintTop_toBottomOf="@+id/textSettings" />
 
         <Button
             android:id="@+id/button_sredn"
@@ -142,8 +140,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_mal"
-            tools:visibility="invisible" />
+            app:layout_constraintTop_toBottomOf="@+id/button_mal" />
 
         <Button
             android:id="@+id/button_bolshoi"
@@ -155,8 +152,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_sredn"
-            tools:visibility="invisible" />
+            app:layout_constraintTop_toBottomOf="@+id/button_sredn" />
 
         <Button
             android:id="@+id/button3"
@@ -168,8 +164,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_bolshoi"
-            tools:visibility="invisible" />
+            app:layout_constraintTop_toBottomOf="@+id/button_bolshoi" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

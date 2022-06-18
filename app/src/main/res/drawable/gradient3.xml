@@ -6,10 +6,11 @@
         android:width="0dp"
         android:color="#000000">
     </stroke>
-    <corners
-        android:radius="40dp">
-    </corners>
-    <solid
-        android:color="#7E000000"
-        ></solid>
+
+    <gradient
+        android:startColor="@color/gr31"
+        android:endColor="@color/gr32"
+        android:angle="-45">
+    </gradient>
+
 </shape>

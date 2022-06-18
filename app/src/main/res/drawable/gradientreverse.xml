@@ -7,8 +7,8 @@
         android:color="#000000">
     </stroke>
     <gradient
-        android:startColor="@color/gr1"
-        android:endColor="@color/gr2">
+        android:startColor="@color/gr2"
+        android:endColor="@color/gr1">
     </gradient>
 
 <!--    <gradient-->

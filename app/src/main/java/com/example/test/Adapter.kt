@@ -1,14 +1,12 @@
 package com.example.test
 
 import android.content.Intent
-import android.os.Handler
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.animation.AnimationUtils
 import android.widget.BaseAdapter
 import android.widget.TextView
-import androidx.core.content.ContextCompat.startActivity
+import com.example.test.allTem.tema1
 
 class Adapter(strings: ArrayList<String>): BaseAdapter(){
 
@@ -44,8 +42,16 @@ class Adapter(strings: ArrayList<String>): BaseAdapter(){
         text?.setOnClickListener {
 
             if (position == 0){
+                var intent = Intent(parent.context, tema1::class.java)
+                //intent.putExtra("pos", position)
+                parent.context.startActivity(intent)
             }
-            parent.context.startActivity(Intent(parent.context, Page::class.java))
+
+//            var intent = Intent(parent.context, Page::class.java)
+//            intent.putExtra("pos", position)
+//
+//            parent.context.startActivity(intent)
+
                // Toast.makeText(parent?.context, "Нажатие засчитанно на $position раздел", Toast.LENGTH_SHORT).show()
         }
 

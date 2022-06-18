@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".allTem.tema1">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        ></View>
+
+    <ScrollView
+        android:id="@+id/Scroll2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/shape"
+        android:paddingStart="10dp"
+        android:paddingTop="15dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Пренебрежение требованиями безопасности к условиям труда чревато как для работодателей, так и для работников. Какие требования безопасности к условиям труда? Как обеспечить безопасность условий труда?"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Чтобы не навредить своему здоровью, необходимо соблюдать ряд простых рекомендаций: "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Неправильная посадка за компьютером может стать причиной боли в плечах и пояснице. Поэтому садитесь свободно, без напряжения, не сутулясь, не наклоняясь и не наваливаясь на спинку стула. Ноги ставьте прямо на пол, одна возле другой, не вытягивайте их и не подгибайте."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="При напряженной длительной работе глаза переутомляются, поэтому каждые 5 минут отрывайте взгляд от экрана и смотрите на что-нибудь, находящееся вдали. "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/tema1" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Основая техника безопастности на уроках в школе:"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Запрещается трогать провода, вилки, розетки, штекеры, передвигать без разрешения учителя оборудование. \nНельзя входить и выходить из класса без разрешения учителя.  \nНельзя без разрешения учителя ходить по классу.  \nНельзя работать на ПК мокрыми руками и в мокрой одежде.  \nЗапрещается работать на ПК, имеющих нарушение целостности корпуса или проводов.  \nЗапрещается класть на стол рядом с ПК портфели, сумки, книги. На столе должны лежать только ручки и тетради.  \nНельзя ничего класть на клавиатуру.  \nВ компьютерном классе запрещается бегать, играть, отвлекать товарищей, заниматься посторонней работой."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Правильная организация рабочего места за компьютером."
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Устанавливать монитор желательно в углу комнаты или развернуть его задней панелью к стене."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.Во время работы расстояние до экрана монитора должно быть не менее 70 см."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.Рабочее место должно быть комфортным и достаточно освещённым, лучи света не должны попадать прямо в глаза."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.Не следует забывать о том, что экран компьютера способен собирать пыль. Для достижения четкости изображения регулярно протирайте его антистатическим раствором или используйте специальные салфетки. Для протирки мониторов нельзя применять спирт – может испортиться антибликовое покрытие."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.По возможности изолируйте себя от шума. Старайтесь не создавать его сами. Приучайтесь разговаривать спокойным голосом, не говорите много."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6.Мебель, которой вы пользуетесь при работе на компьютере, должна быть удобной, так как от этого зависит удобство расположения рук, ног и позвоночника."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/tema12" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

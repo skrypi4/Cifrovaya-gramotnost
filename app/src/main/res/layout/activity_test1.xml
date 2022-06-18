@@ -59,6 +59,7 @@
                     android:id="@+id/radioButton2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:checked="false"
                     android:text="Нет"
                     android:textColor="#FFFFFF"
                     android:textSize="18sp" />
@@ -206,7 +207,7 @@
                 android:textSize="18sp" />
 
             <RadioGroup
-                android:layout_width="235dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:paddingLeft="15dp"
@@ -261,7 +262,7 @@
                 android:textSize="18sp" />
 
             <RadioGroup
-                android:layout_width="235dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:paddingLeft="15dp"

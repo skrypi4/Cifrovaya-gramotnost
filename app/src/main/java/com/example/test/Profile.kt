@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.FrameLayout
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_login.*
 
 class Profile : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,6 +28,8 @@ class Profile : AppCompatActivity() {
             Toast.makeText(this, "Вы уже находитесь здесь :)", Toast.LENGTH_SHORT).show()
         }
 
+//        var a: Int
+//        login.text = settings.getString(myLogin, "")?.toEditable()
 
     }
 

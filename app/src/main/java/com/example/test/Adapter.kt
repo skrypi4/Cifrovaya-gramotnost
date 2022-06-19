@@ -48,10 +48,10 @@ class Adapter(strings: ArrayList<String>): BaseAdapter(){
                 parent.context.startActivity(intent)
             }
 
-            if (position == 1){
-                var intent = Intent(parent.context, Tema2::class.java)
-                parent.context.startActivity(intent)
-            }
+//            if (position == 1){
+//                var intent = Intent(parent.context, Tema2::class.java)
+//                parent.context.startActivity(intent)
+//            }
 
 //            var intent = Intent(parent.context, Page::class.java)
 //            intent.putExtra("pos", position)

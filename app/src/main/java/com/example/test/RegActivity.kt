@@ -61,11 +61,6 @@ class RegActivity : AppCompatActivity() {
 
                         val intent = Intent(this@RegActivity, Profile::class.java)
                         startActivity(intent)
-
-
-
-
-
                     }
                 }
 

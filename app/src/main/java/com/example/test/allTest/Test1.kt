@@ -53,16 +53,13 @@ class Test1 : AppCompatActivity() {
             }
 
 
-            var test1Profile = a
-            editor.putString(test1Profile.toString(), test1)
+            var test1Profile = a.toString()
+            editor.putString(test1, test1Profile)
             editor.apply()
 
             Toast.makeText(this, "Вы ответили правильно, на $a/5 вопросов", Toast.LENGTH_SHORT).show()
             val intent = Intent(this@Test1, Listtest::class.java)
             startActivity(intent)
-
-
-
         }
     }
 }

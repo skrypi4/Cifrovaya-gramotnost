@@ -46,10 +46,11 @@ class Profile : AppCompatActivity() {
 
         val settings: SharedPreferences
         val mySettings = "mysettings"
-        var test1 = "test1"
+        var test1= "test1"
         settings = getSharedPreferences(mySettings, Context.MODE_PRIVATE)
 
         test1 = settings.getString(test1,"null").toString()
+
         ocenka.text = test1
 
         if (test1 != null) {
@@ -57,7 +58,6 @@ class Profile : AppCompatActivity() {
             textOp.visibility = View.VISIBLE
             fon.visibility = View.VISIBLE
             ocenka.visibility = View.VISIBLE
-
             }
 
 

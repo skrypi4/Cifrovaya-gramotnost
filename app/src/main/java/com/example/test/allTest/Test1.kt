@@ -1,12 +1,15 @@
 package com.example.test.allTest
 
 import android.content.Context
+import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.view.View
 import android.widget.*
+import com.example.test.Listtest
+import com.example.test.Profile
 import com.example.test.R
 
 class Test1 : AppCompatActivity() {
@@ -43,17 +46,9 @@ class Test1 : AppCompatActivity() {
             }
 
             Toast.makeText(this, "Вы ответили правильно, на $a/5 вопросов", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this@Test1, Listtest::class.java)
+            startActivity(intent)
 
-            val mySettings = "mysettings"
-            val shaTest1 = "test1"
-            val settings: SharedPreferences
-            settings = getSharedPreferences(mySettings, Context.MODE_PRIVATE)
-            val editor = settings.edit()
-
-            //fun String.toEditable(): Editable = Editable.Factory.getInstance().newEditable(this)
-
-            editor.putString(shaTest1, a.toString())
-            editor.apply()
 
 
         }

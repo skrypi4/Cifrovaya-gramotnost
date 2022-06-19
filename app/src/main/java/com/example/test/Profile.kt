@@ -1,6 +1,7 @@
 package com.example.test
 
 import android.content.Intent
+import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.FrameLayout
@@ -28,8 +29,9 @@ class Profile : AppCompatActivity() {
             Toast.makeText(this, "Вы уже находитесь здесь :)", Toast.LENGTH_SHORT).show()
         }
 
-//        var a: Int
-//        login.text = settings.getString(myLogin, "")?.toEditable()
+
+
+
 
     }
 

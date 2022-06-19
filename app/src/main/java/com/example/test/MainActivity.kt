@@ -1,6 +1,8 @@
 package com.example.test
 
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.widget.Button
 import android.widget.FrameLayout
@@ -54,9 +56,25 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         buttonProfile.setOnClickListener {
-            val intent = Intent(this@MainActivity, LoginActivity::class.java)
-            startActivity(intent)
+            val settings: SharedPreferences
+            val mySettings = "mysettings"
+            var token = "token"
+            settings = getSharedPreferences(mySettings, Context.MODE_PRIVATE)
+
+            token = settings.getString(token,"null").toString()
+
+
+            if(token == "null"){
+                val intent = Intent(this@MainActivity, LoginActivity::class.java)
+                startActivity(intent)
+            } else {
+                val intent = Intent(this@MainActivity, Profile::class.java)
+                startActivity(intent)
+            }
         }
+
+
+
 
     }
 

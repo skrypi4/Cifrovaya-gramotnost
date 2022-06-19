@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
+import com.example.test.allTem.Tema2
 import com.example.test.allTem.tema1
 
 class Adapter(strings: ArrayList<String>): BaseAdapter(){
@@ -44,6 +45,11 @@ class Adapter(strings: ArrayList<String>): BaseAdapter(){
             if (position == 0){
                 var intent = Intent(parent.context, tema1::class.java)
                 //intent.putExtra("pos", position)
+                parent.context.startActivity(intent)
+            }
+
+            if (position == 1){
+                var intent = Intent(parent.context, Tema2::class.java)
                 parent.context.startActivity(intent)
             }
 

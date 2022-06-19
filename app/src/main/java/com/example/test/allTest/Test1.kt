@@ -26,6 +26,13 @@ class Test1 : AppCompatActivity() {
         val vopros4 = findViewById<RadioButton>(R.id.checkBox42)
         val vopros5 = findViewById<RadioButton>(R.id.checkBox53)
 
+        val settings: SharedPreferences
+        val mySettings = "mysettings"
+        val test1 = "test1"
+
+        settings = getSharedPreferences(mySettings, Context.MODE_PRIVATE)
+        var editor = settings.edit()
+
         bTest.setOnClickListener {
             var a:Int = 0
 
@@ -44,6 +51,11 @@ class Test1 : AppCompatActivity() {
             if (vopros5.isChecked){
                 a++
             }
+
+
+            var test1Profile = a
+            editor.putString(test1Profile.toString(), test1)
+            editor.apply()
 
             Toast.makeText(this, "Вы ответили правильно, на $a/5 вопросов", Toast.LENGTH_SHORT).show()
             val intent = Intent(this@Test1, Listtest::class.java)

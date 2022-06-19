@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         val list = findViewById<ListView>(R.id.list)
         val itemsRazdel: ArrayList<String> = ArrayList<String>()
 
-
         itemsRazdel.add("Тема №1\n\nТехника безопасности и организация рабочего места")
         itemsRazdel.add("Тема №2\n\nКак правильно работать с компьютером")
         itemsRazdel.add("Тема №3\n\nПочему так важно защищать глаза")
@@ -36,7 +35,6 @@ class MainActivity : AppCompatActivity() {
         itemsRazdel.add("Тема №14\n\nПоиск и замена текста")
         itemsRazdel.add("Тема №15\n\nФорматирование текста в текстовом редакторе")
         itemsRazdel.add("Тема №16\n\nЧто такое скриншот и как его сделать")
-
 
         val adapter = Adapter(itemsRazdel)
         list.adapter = adapter
@@ -62,7 +60,6 @@ class MainActivity : AppCompatActivity() {
             settings = getSharedPreferences(mySettings, Context.MODE_PRIVATE)
 
             token = settings.getString(token,"null").toString()
-
 
             if(token == "null"){
                 val intent = Intent(this@MainActivity, LoginActivity::class.java)
